@@ -70,3 +70,7 @@ Done -> Closed, Open.
   <img width="1200" height="600" src="./images/7.png">
 </p>
 Если всё отработалось в рамках ожидания — выгрузите схемы workflow для импорта в XML. Файлы с workflow и скриншоты workflow приложите к решению задания.
+
+[jira1.xml](https://github.com/george25031996/CI-CD/blob/main/9.1/jira1.xml)
+
+[jira2.xml](https://github.com/george25031996/CI-CD/blob/main/9.1/jira2.xml)
