@@ -1,0 +1,38 @@
+[
+    {
+        "label": "increment",
+        "kind": 2,
+        "importPath": "example.fail",
+        "description": "example.fail",
+        "peekOfCode": "def increment(index=0):\n    index =+ 1\n    return index\ndef get_square(numb):\n    return numb*numb\ndef print_numb(numb):\n    print(\"Number is {}\".format(numb))\nindex = 0\nwhile (index < 10):\n    index = increment(index)",
+        "detail": "example.fail",
+        "documentation": {}
+    },
+    {
+        "label": "get_square",
+        "kind": 2,
+        "importPath": "example.fail",
+        "description": "example.fail",
+        "peekOfCode": "def get_square(numb):\n    return numb*numb\ndef print_numb(numb):\n    print(\"Number is {}\".format(numb))\nindex = 0\nwhile (index < 10):\n    index = increment(index)\n    print(get_square(index))",
+        "detail": "example.fail",
+        "documentation": {}
+    },
+    {
+        "label": "print_numb",
+        "kind": 2,
+        "importPath": "example.fail",
+        "description": "example.fail",
+        "peekOfCode": "def print_numb(numb):\n    print(\"Number is {}\".format(numb))\nindex = 0\nwhile (index < 10):\n    index = increment(index)\n    print(get_square(index))",
+        "detail": "example.fail",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "example.fail",
+        "description": "example.fail",
+        "peekOfCode": "index = 0\nwhile (index < 10):\n    index = increment(index)\n    print(get_square(index))",
+        "detail": "example.fail",
+        "documentation": {}
+    }
+]
