@@ -1270,6 +1270,8 @@ Finished: SUCCESS
 
 8. Отправить ссылку на репозиторий с ролью и Declarative Pipeline и Scripted Pipeline.
 
+[vector-role](https://github.com/george25031996/vector-role)
+
 [Declarative Pipeline](https://github.com/george25031996/CI-CD/blob/main/09-ci-04-jenkins/infrastructure/files/DeclarativePipeline)
 
 [Scripted Pipeline](https://github.com/george25031996/CI-CD/blob/main/09-ci-04-jenkins/infrastructure/files/ScriptedJenkinsfile)
