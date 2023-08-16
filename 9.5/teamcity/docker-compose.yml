@@ -5,6 +5,7 @@ services:
     networks:
       appnet:
         ipv4_address: 172.16.0.3
+    user: root:root
     volumes:
       - ~/teamcity/data/:/data/teamcity_server/datadir
       - ~/teamcity/logs/:/opt/teamcity/logs
@@ -15,6 +16,7 @@ services:
     networks:
       appnet:
         ipv4_address: 172.16.0.2
+    user: root:root
     depends_on:
       - teamcity
     volumes:
@@ -26,8 +28,9 @@ services:
       SERVER_URL: "http://172.16.0.3:8111"
   nexus:
     image: sonatype/nexus3:3.58.1
+    user: root:root
     ports:
-      - 8081:8081
+      - 8083:8081
     networks:
       appnet:
         ipv4_address: 172.16.0.4
